@@ -1,8 +1,4 @@
-import { useAppContext } from '@/context/AppContext';
-
-export const formatDate = (date: string) => {
-  const { english } = useAppContext();
-
+export const formatDate = (date: string = '', isEnglish: boolean = true) => {
   const dateObject = new Date(date);
   const day =
     dateObject.getDate() < 10
@@ -16,5 +12,5 @@ export const formatDate = (date: string) => {
 
   const year = dateObject.getFullYear();
 
-  return english ? `${year}/${month}/${day}` : `${day}/${month}/${year}`;
+  return isEnglish ? `${year}/${month}/${day}` : `${day}/${month}/${year}`;
 };

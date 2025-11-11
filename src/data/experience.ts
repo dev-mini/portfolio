@@ -15,58 +15,60 @@ export const experience = [
     },
     employer: 'CANTERA DIGITAL',
     startDate: '2024/02/01',
-    endDate: '',
+    endDate: '2025/11/14',
     jobTitle: 'FULLSTACK DEVELOPER',
-    descES:
-      'Actualmente trabajo en aquí, una excelente empresa de consultoría de software. Esta experiencia me ha permitido seguir creciendo tanto técnicamente como profesionalmente. He aprendido mucho de mis compañeros, y trabajar de cerca con ellos me ha ayudado a fortalecer mis habilidades de comunicación y resolución de problemas. Los proyectos en los que he participado han estado enfocados principalmente a plataformas CMS (Sistemas de Gestión de Contenidos), donde he contribuido a mejorar el rendimiento, optimizar la experiencia del usuario y ofrecer soluciones escalables adaptadas a las necesidades del cliente. Últimamente también he participado en el desarrollo del backend, creando REST API endpoints y asegurando una buena estructura de los datos utilizando, así como proporcionando documentación mediante Swagger.',
-    descEn: `Currently working here, at an excellent software consulting company. This experience has allowed me to keep growing both technically and professionally. I've learned
-      a lot from my teammates, and working closely with them has helped me strengthen my communication and problem-solving skills. The projects I've been involved in have mainly focused on CMS (Content Management System) platforms, where I've contributed to improving performance, enhancing user experience, and delivering scalable solutions tailored to the client needs. Lately I have also been involved in the backend development, creating REST API endpoints and ensuring a well-structured data model, as well as providing documentation using Swagger.`,
+    descES: `Trabajar en Cantera Digital me dio la oportunidad de conocer y aprender una gran cantidad de tecnologías y conocimientos nuevos. La variedad de proyectos en la que estuve me permitió conocer diferentes entornos de trabajo, el último y más interesante me permitió trabajar con CI/CD, aunque no fui yo propiamente quien lo configuró, estuve muy de cerca atendiendo problemas de integración y despliegue consultando los logs del pipeline. Durante mi jornada estuve apoyando mayormente en el desarrollo frontend con React tanto en TypeScript como en JavaScript, además de React Native un par de meses; contribuyendo al desarrollo de componentes reutilizables asegurando una buena experiencia de usuario y un buen rendimiento, manteniendo un código limpio y escalable. También tuve una participación activa en el desarrollo backend con Express y FastAPI utilizando bases de datos como MongoDB y PostgreSQL durante unos meses; generando REST API endpoints y documentando con Swagger para facilitar el uso de la API.`,
+    descEn: `Currently working here, at an excellent software consulting company. This experience has allowed me to keep growing both technically and professionally. I've learned a lot from my teammates, and working closely with them has helped me strengthen my communication and problem-solving skills. The projects I've been involved in have mainly focused on CMS (Content Management System) platforms, where I've contributed to improving performance, enhancing user experience, and delivering scalable solutions tailored to the client needs. Lately I have also been involved in the backend development, creating REST API endpoints and ensuring a well-structured data model, as well as providing documentation using Swagger.`,
     tasks: [
       {
         id: 1,
-        taskDescES: 'Desarrollo de interfaces responsivas.',
+        taskDescES:
+          'Desarrollo de interfaces modernas, responsivas y de alto valor usando React.',
         taskDescEN: 'Develop responsive software interfaces.',
       },
       {
         id: 2,
-        taskDescES: 'Consumo de REST APIS.',
+        taskDescES: 'Consumo y desarrollo de REST API endpoints.',
         taskDescEN: 'Consume REST API endpoints.',
       },
       {
         id: 3,
         taskDescES:
-          'Uso de librerías para la administración de datos, formularios y estados como zustand/redux, tanstack query, context api, etc.',
+          'Participar en la definición de estándares de código a lo largo del proyecto y en la revisión de pull requests.',
+        taskDescEN: 'Consume REST API endpoints.',
+      },
+      {
+        id: 4,
+        taskDescES:
+          'Uso de librerías para la administración de datos, formularios y estados como zustand/redux, tanstack query, react-hook-form, etc.',
         taskDescEN:
           'Usage of libraries for data, form handling and state management such as zustand/redux, tanstack query, context api, etc.',
       },
       {
-        id: 4,
-        taskDescES: 'Trabajé con la metodología SCRUM.',
+        id: 5,
+        taskDescES:
+          'Uso de la metodología SCRUM y Azure DevOps para la gestión de actividades.',
         taskDescEN: 'Work with SCRUM methodology.',
       },
       {
-        id: 5,
-        taskDescES: 'Manejo de control de versiones (GIT).',
+        id: 6,
+        taskDescES: 'Manejo de Git para el control de versiones.',
         taskDescEN: 'Work with versioning systems (GIT).',
       },
       {
-        id: 6,
-        taskDescES: 'Integración de servicios de terceros.',
+        id: 7,
+        taskDescES: `Integración de servicios de terceros como Stripe, OpenPay y Api's externas.`,
         taskDescEN: 'Third-party services integration.',
       },
       {
-        id: 7,
-        taskDescES: 'Elaboración de documentación técnica del proyecto.',
+        id: 8,
+        taskDescES: 'Elaboración de documentación técnica.',
         taskDescEN: 'Write technical documentation.',
       },
       {
-        id: 8,
-        taskDescES: 'Desarrollo de REST API endpoints.',
-        taskDescEN: 'Develop REST API endpoints.',
-      },
-      {
         id: 9,
-        taskDescES: 'Diseño de estructura de datos.',
+        taskDescES:
+          'Diseño y estructuración de tablas/modelos en la base de datos.',
         taskDescEN: 'Data model design.',
       },
     ],

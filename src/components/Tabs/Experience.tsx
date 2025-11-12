@@ -36,7 +36,7 @@ export const Experience = () => {
             {`${formatDate(data.startDate, english)} - ${data.endDate ? formatDate(data.endDate, english) : english ? 'Present' : 'Presente'}`}
           </h3>
         </div>
-        <p className="font-semibold my-2">
+        <p className="font-semibold my-2 whitespace-pre-line">
           {english ? data.descEn : data.descES}
         </p>
         <h3 className="font-bold dark:text-secondary text-secondaryLight">

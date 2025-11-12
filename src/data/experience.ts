@@ -17,7 +17,8 @@ export const experience = [
     startDate: '2024/02/01',
     endDate: '2025/11/14',
     jobTitle: 'FULLSTACK DEVELOPER',
-    descES: `Trabajar en Cantera Digital me dio la oportunidad de conocer y aprender una gran cantidad de tecnologías y conocimientos nuevos. La variedad de proyectos en la que estuve me permitió conocer diferentes entornos de trabajo, el último y más interesante me permitió trabajar con CI/CD, aunque no fui yo propiamente quien lo configuró, estuve muy de cerca atendiendo problemas de integración y despliegue consultando los logs del pipeline. Durante mi jornada estuve apoyando mayormente en el desarrollo frontend con React tanto en TypeScript como en JavaScript, además de React Native un par de meses; contribuyendo al desarrollo de componentes reutilizables asegurando una buena experiencia de usuario y un buen rendimiento, manteniendo un código limpio y escalable. También tuve una participación activa en el desarrollo backend con Express y FastAPI utilizando bases de datos como MongoDB y PostgreSQL durante unos meses; generando REST API endpoints y documentando con Swagger para facilitar el uso de la API.`,
+    descES: `Trabajar en Cantera Digital me dio la oportunidad de conocer y aprender una gran cantidad de tecnologías y conocimientos nuevos. La variedad de proyectos en la que estuve me permitió conocer diferentes entornos de trabajo, el último y más interesante me permitió trabajar con CI/CD, aunque no fui yo propiamente quien lo configuró, estuve muy de cerca atendiendo problemas de integración y despliegue consultando los logs del pipeline.
+    Durante mi jornada estuve apoyando mayormente en el desarrollo frontend con React tanto en TypeScript como en JavaScript, además de React Native un par de meses; contribuyendo al desarrollo de componentes reutilizables asegurando una buena experiencia de usuario y un buen rendimiento, manteniendo un código limpio y escalable. También tuve una participación activa en el desarrollo backend con Express y FastAPI utilizando bases de datos como MongoDB y PostgreSQL durante unos meses; generando REST API endpoints y documentando con Swagger para facilitar el uso de la API.`,
     descEn: `Currently working here, at an excellent software consulting company. This experience has allowed me to keep growing both technically and professionally. I've learned a lot from my teammates, and working closely with them has helped me strengthen my communication and problem-solving skills. The projects I've been involved in have mainly focused on CMS (Content Management System) platforms, where I've contributed to improving performance, enhancing user experience, and delivering scalable solutions tailored to the client needs. Lately I have also been involved in the backend development, creating REST API endpoints and ensuring a well-structured data model, as well as providing documentation using Swagger.`,
     tasks: [
       {
@@ -85,10 +86,9 @@ export const experience = [
     startDate: '2024/04/01',
     endDate: '2024/09/16',
     jobTitle: 'FULLSTACK DEVELOPER',
-    descES: `En conjunto con dos compañeros desarrollamos un sistema web administrativo para un consultorio óptico, abarcando todo el proceso de desarrollo de software: desde la obtención de requerimientos hasta el despliegue del sistema en una red LAN. Las interfaces fueron diseñadas en Figma conforme a los requerimientos del cliente.
-    En el backend se implementó una autenticación básica y el almacenamiento de datos en una base de datos relacional utilizando PostgreSQL, en conjunto con Express y TypeScript.
-    En el frontend se desarrollaron las interfaces de usuario con React y JavaScript, utilizando la librería Material UI para la gestión de algunos componentes.
-    Además, la aplicación fue dockerizada para facilitar el paso a producción, garantizando un entorno lo más similar posible al de desarrollo.`,
+    descES: `Participé como desarrollador freelance en el desarollo de un sistema administrativo hecho a la medida para una óptica. Estuve enfocado mayormente en la parte del backend, donde estuve modelando la base de datos con PostgreSQL, implementando autenticación con JWT, desarrollando REST API endpoints y middlewares haciendo uso de Express y TypeScript en conjunto de librerías populares como Prisma y Zod. Además estuve generando la imagen de docker y realizando las configuraciones necesarias para el correcto funcionamiento en diferentes ambientes.
+    También estuve apoyando en el desarrollo frontend mejorando algunos componentes para optimizar las consultas realizadas y mejorar la experiencia de usuario, además de estar involucrado continuamente en la creación del diseño para el sitio web usando herramientas como Figma.
+    `,
     descEn: `Together with two teammates, we developed a web-based administrative system for an optical clinic, covering the entire software development process—from gathering requirements to deploying the system on a LAN network. The user interfaces were designed in Figma according to the client's requirements. 
     On the backend, we implemented basic authentication and data storage in a relational database using PostgreSQL, combined with Express and TypeScript.
     On the frontend, we built the user interfaces with React and JavaScript, leveraging the Material UI library for a consistent component management.
@@ -97,7 +97,7 @@ export const experience = [
       {
         id: 1,
         taskDescES: 'Diseño de interfaces de usuario para el sistema.',
-        taskDescEN: 'Participate in the website UI design.',
+        taskDescEN: 'Participate in the website UI design using Figma.',
       },
       {
         id: 2,
@@ -107,33 +107,33 @@ export const experience = [
       },
       {
         id: 3,
-        taskDescES:
-          'Uso de librerías populares como Zod, Prisma, Bcrypt, JWT, etc.',
+        taskDescES: 'Uso de librerías populares como Zod, Prisma, JWT, etc.',
         taskDescEN:
           'Usage of common libraries such as Zod, Prisma, Bcrypt, JWT, etc.',
       },
       {
         id: 4,
         taskDescES:
-          'Participé en el frontend actualizando algunos componentes para mejorar el rendimiento y la experiencia del usuario.',
+          'Optimización de consultas realizadas y mejora de componentes asegurando un buen rendimiento y una mejor experiencia de usuario utilizando React.',
         taskDescEN:
           'Paticipate in the frontend development by enhancing the components to improve the performance and UI/UX using React.',
       },
       {
         id: 5,
         taskDescES:
-          'Uso y configuración de Docker para el buen funcionamiento en diferentes ambientes.',
+          'Generación de imagen del proyecto y configuración de Docker para el correcto funcionamiento en diferentes ambientes.',
         taskDescEN:
           'Docker usage and configuration to ensure work properly in different environments',
       },
       {
         id: 6,
-        taskDescES: 'Diseño de estructura de datos usando PostgreSQL.',
+        taskDescES:
+          'Diseño y estructuración de tablas/modelos en la base de datos.',
         taskDescEN: 'Data model design using PostgreSQL.',
       },
       {
         id: 7,
-        taskDescES: 'Manejo de control de versiones (GIT).',
+        taskDescES: 'Manejo de Git para el control de versiones.',
         taskDescEN: 'Work with versioning systems (GIT).',
       },
     ],

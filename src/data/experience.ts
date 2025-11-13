@@ -150,8 +150,9 @@ export const experience = [
     startDate: '2024/06/15',
     endDate: '2024/10/28',
     jobTitle: 'FREELANCE SOFTWARE DEVELOPER',
-    descES:
-      'Este proyecto fue un trabajo como freelance, un gran reto, pero también una excelente experiencia. Tuve que apoyarme bastante en mis habilidades autodidactas, ya que no conocía el software que requerido por el cliente. Esto me llevó a profundizar en su documentación, a pesar de que estaba desactualizada y algunos pasos variaban entre versiones. Para superar estos obstáculos, investigué en foros y otras fuentes técnicas. A lo largo del proyecto también fortalecí mis habilidades de trabajo en equipo y gestión del tiempo, coordinándome con otras personas y asegurando que cumpliéramos con los tiempos establecidos. Utilizamos VMware para gestionar el entorno cuidadosamente antes de migrar todo a producción. Al final, logré entregar una solución funcional, superando las limitaciones técnicas e informativas, lo que ayudó al cliente a avanzar de manera más eficiente con sus operaciones.',
+    descES: `Participé como desarrollador freelance en la instalación y configuración de un repositorio digital mediante el software DSpace. Durante este proyecto fue vital la búsqueda y lectura de documentación para llevar a cabo la correcta instalación y configuración, así como solventar los errores que se presentaban debido a diversos factores. DSpace está hecho en Angular y SpringBoot, por lo que las configuraciones y modificaciones que se llevaron a cabo requirieron de conocimientos en estos frameworks.
+    Antes de realizar el pase a producción fue necesario hacer uso de máquinas virtuales en VMWare para simular el entorno y replicar el ambiente, asegurando que fuera lo más cercano posible y el despliegue fuera sencillo y seguro. También fue importante investigar y explorar alternativas para el DNS y el Hosting, asi como la configuración de estos en conjunto con el certificado SSL y el firewall. 
+    `,
     descEn: `This project was a freelance job, a big challenge, but also a great learning experience. I had to rely heavily on my self-learning skills, as I was
       unfamiliar with the software required by the client. This pushed me to dive deep into its documentation, even though it was outdated and certain steps varied between versions. To overcome this, I had to explore external resources such as community forums and technical articles.
       Throughout the project, I also strengthened my teamwork and time management skills by coordinating with others and ensuring we stayed on schedule. We used VMware to manage the environment carefully before moving everything into production. In the end, I was able to deliver a functional solution, overcoming technical and informational limitations, which helped the client move forward with their operations more efficiently.`,
@@ -165,24 +166,31 @@ export const experience = [
       {
         id: 2,
         taskDescES:
-          'Personalización de estilos e información en base a la escuela.',
+          'Personalización de estilos y contenido basado en los requerimientos e identidad de la escuela.',
         taskDescEN:
           'Customization of styles and content based on the school branding.',
       },
       {
         id: 3,
-        taskDescES: 'Configuración de DNS, SSL y despliegue.',
+        taskDescES: 'Configuración de DNS, SSL y firewall.',
         taskDescEN: 'DNS, SSL and firewall configurations.',
       },
       {
         id: 4,
         taskDescES:
-          'Desarrollo de scripts para la descarga, categorización y subida de libros.',
+          'Lectura y exploración de documentación, foros, artículos y otros recursos externos.',
         taskDescEN:
           'Script development to download, upload and categorize books.',
       },
       {
         id: 5,
+        taskDescES:
+          'Desarrollo de scripts en python para descargar, subir y categorizar libros, artículos y otros recursos.',
+        taskDescEN:
+          'Script development to download, upload and categorize books.',
+      },
+      {
+        id: 6,
         taskDescES: 'Despliegue de la aplicación.',
         taskDescEN: 'App deployment.',
       },

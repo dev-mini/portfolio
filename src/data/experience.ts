@@ -208,42 +208,50 @@ export const experience = [
     startDate: '2023/01/05',
     endDate: '2023/06/05',
     jobTitle: 'FULLSTACK DEVELOPER',
-    descES:
-      'Participé en la actualización y migración del sistema para ayudar a mejorar las operaciones del área financiera. Mejoré mis conocimientos sobre Laravel y sus mejores prácticas, colaborando con el equipo mediante el uso de Bootstrap e implementando AdminLTE con una personalización adecuada para satisfacer las necesidades específicas del proyecto. A lo largo de este proceso, contribuí a agilizar las operaciones y mejorar la interfaz de usuario, lo que finalmente aumentó la eficiencia general y la satisfacción de los usuarios en el área financiera.',
+    descES: `Apoyé activamente en la actualización y migración del sistema para mejorar las operaciones del área financiera utilizando Laravel para el desarrollo del sitio web. Se hizo uso de la arquitectura Modelo Vista Controlador (MVC), dónde contribuí a la mejora e implementación de la autenticación así como en el desarrollo de interfaces haciendo uso de la plantilla AdminLTE en conjunto con Bootstrap y JQuery.
+    Tuve una participación continua en la migración de la base de datos de Access a MySQL, coordinando en conjunto con el equipo la transferencia de datos y la estructuración de los mismos. Además estuve involucrado en la definición de estándares de código y en la revisión de pull requests, garantizando la calidad y el cumplimiento de los requisitos del proyecto.
+    `,
     descEn: `I participated in the system upgrade and migration to help improve the financial area's operations. I enhanced my knowledge of Laravel and its best practices,
       collaborating with the team by using Bootstrap and implementing AdminLTE with proper customization to meet the specific needs of the project. Through this process, I contributed to streamlining operations and enhancing the user interface, which ultimately improved the overall efficiency and user satisfaction in the financial department.`,
     tasks: [
       {
         id: 1,
-        taskDescES: 'Migración de la base de datos de Access a MySQL.',
+        taskDescES:
+          'Coordinación y ejecución de migración de datos de Access a MySQL.',
         taskDescEN: 'Migrate the database from Access to MySQL.',
       },
       {
         id: 2,
-        taskDescES: 'Desarrollo de frontend y backend utilizando Laravel.',
+        taskDescES: 'Desarrollo frontend y backend utilizando Laravel.',
         taskDescEN:
           'Participate in the development of the website using Laravel.',
       },
       {
         id: 3,
+        taskDescES: 'Uso de la arquitectura Modelo Vista Controlador (MVC).',
+        taskDescEN:
+          'Define code standards across the project and participate in pull request reviews.',
+      },
+      {
+        id: 4,
         taskDescES:
           'Definición de estándares de código dentro del proyecto y participación en revisión de pull requests.',
         taskDescEN:
           'Define code standards across the project and participate in pull request reviews.',
       },
       {
-        id: 4,
-        taskDescES: 'Uso de Jira.',
+        id: 5,
+        taskDescES: 'Uso de Jira para el seguimiento de tareas.',
         taskDescEN: 'Work with Jira.',
       },
       {
-        id: 5,
-        taskDescES: 'Manejo de control de versiones (GIT).',
+        id: 6,
+        taskDescES: 'Manejo de Git para el control de versiones.',
         taskDescEN: 'Work with versioning systems (GIT).',
       },
       {
-        id: 6,
-        taskDescES: 'Consumo de REST API endpoints de terceros.',
+        id: 7,
+        taskDescES: 'Consumo de REST API endpoints de servicios externos.',
         taskDescEN: 'Consume third-party REST API endpoints.',
       },
     ],

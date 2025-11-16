@@ -1,7 +1,7 @@
 export const SELF_DESCRIPTION_ES =
-  'Mi nombre es Edgar Martínez, tengo 24 años y soy ingeniero en sistemas computacionales. Llevo algunos años trabajando en desarrollo de software, sobre todo en el área de frontend. También tengo una especialidad en seguridad de la información, así que siempre trato de aplicar esos conocimientos para hacer que mi código sea más seguro y confiable. Me encanta aprender cosas nuevas sobre tecnología. Disfruto leer novedades, pero lo que más me gusta es poner en práctica lo que aprendo.';
+  'Tengo 24 años y soy desarrollador de software con amplios conocimientos en frontend y backend. Principalmente enfocado en entregar soluciones de software de alto valor mediante un producto confiable, escalable y robusto, asegurando una buena experiencia de usuario con las mejores prácticas y optimizando el rendimiento del mismo. Tengo la facilidad de adaptarme a nuevos retos y tecnologías con el fin de contribuir activamente al equipo y obtener mejores resultados. Adicional a esto cuento con una especialidad en seguridad de la información, por lo cual, conozco vulnerabilidades comunes y la manera de mitigarlas, lo que me permite aplicar siempre estos conocimientos en los proyectos designados.';
 export const WORKING_ON_ES =
-  'Actualmente me encuentro aprendiendo sobre AWS, buscando obtener la certificación de desarrollador. Además, estoy trabajando como freelance en el desarrollo de un software administrativo y, cuando tengo tiempo, me gusta hacer proyectos personales para seguir mejorando mis habilidades.';
+  'Actualmente me encuentro constantemente aprendiendo acerca de AWS, sus servicios y aplicaciones por mi cuenta; adicional a esto me gustaría mencionar que he tenido la oportunidad de utilizar algunos servicios como S3, EC2 o Lambda.';
 export const EXPERIENCE_ES = 'Experiencia';
 export const PROJECTS_ES = 'Proyectos Personales';
 export const TECHNOLOGIES_ES = 'Tecnologías';

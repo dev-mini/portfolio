@@ -147,8 +147,8 @@ export const experience = [
       lightModeHelp: false,
     },
     employer: 'PRESTIGE ENGLISH SCHOOL',
-    startDate: '2024/06/15',
-    endDate: '2024/10/28',
+    startDate: '2023/06/15',
+    endDate: '2023/10/28',
     jobTitle: 'FREELANCE SOFTWARE DEVELOPER',
     descES: `Participé como desarrollador freelance en la instalación y configuración de un repositorio digital mediante el software DSpace. Durante este proyecto fue vital la búsqueda y lectura de documentación para llevar a cabo la correcta instalación y configuración, así como solventar los errores que se presentaban debido a diversos factores. DSpace está hecho en Angular y SpringBoot, por lo que las configuraciones y modificaciones que se llevaron a cabo requirieron de conocimientos en estos frameworks.
     Antes de realizar el pase a producción fue necesario hacer uso de máquinas virtuales en VMWare para simular el entorno y replicar el ambiente, asegurando que fuera lo más cercano posible y el despliegue fuera sencillo y seguro. También fue importante investigar y explorar alternativas para el DNS y el Hosting, asi como la configuración de estos en conjunto con el certificado SSL y el firewall. 
@@ -268,8 +268,8 @@ export const experience = [
     startDate: '2022/01/03',
     endDate: '2022/06/03',
     jobTitle: 'FULLSTACK DEVELOPER',
-    descES:
-      'Este proyecto fue mi primera experiencia en el ambiente laboral. Participé en el desarrollo de un CMS (Sistema de Gestión de Contenidos) para una empresa de servicios residenciales técnicos. El software se construyó desde cero, y realizamos varias reuniones para definir y analizar los requisitos del software, así como para revisar el progreso y entregar el producto final. Utilizamos Django para el backend y HTML en conjunto con JavaScript para el frontend. A través de este proyecto, adquirí experiencia práctica muy valiosa tanto en desarrollo backend como frontend, lo que fortaleció mis habilidades para resolver problemas y mi capacidad para trabajar de manera colaborativa con un equipo. La finalización exitosa de este proyecto ayudó a agilizar las operaciones del cliente y mejoró la entrega de sus servicios.',
+    descES: `Participé en el desarrollo de un CMS (Content Management System) a la medida para una empresa de servicios técnico residenciales. Estuve involucrado durante todo el ciclo del proyecto, apoyando en la obtención y análisis de requerimientos, en la creación del diseño de interfaces para el sitio web y en el desarrollo utilizando DJango y JavaScript, además de participar en el modelado y estructuración de la base de datos utilizando SQLite.
+    `,
     descEn: `This project was my first real-world experience. I participated in the development of a CMS (Content Management System) for a technical residential services 
       company. The software was built from scratch, and we held several meetings to define and analyze the software requirements, review progress, and deliver the final product. We used Django for the backend and HTML and JavaScript for the frontend. Through this project, I gained valuable hands-on experience with both backend and frontend development, which strengthened my problem-solving skills and ability to work collaboratively with a team. The successful completion of this project helped streamline the client's operations and improved their service delivery.`,
     tasks: [
@@ -282,12 +282,12 @@ export const experience = [
       },
       {
         id: 2,
-        taskDescES: 'Diseño de interfaces de la plataforma.',
+        taskDescES: 'Diseño de interfaces del sitio web.',
         taskDescEN: 'Participated in designing software interfaces.',
       },
       {
         id: 3,
-        taskDescES: 'Desarrollo de frontend y backend con Django.',
+        taskDescES: 'Desarrollo frontend y backend con Django.',
         taskDescEN:
           'Participate in the development of backend and frontend with Django.',
       },
@@ -299,12 +299,12 @@ export const experience = [
       },
       {
         id: 5,
-        taskDescES: 'Trabajé con la metodología SCRUM.',
+        taskDescES: 'Uso de la metodología SCRUM.',
         taskDescEN: 'Work with SCRUM methodology.',
       },
       {
         id: 6,
-        taskDescES: 'Manejo de control de versiones (GIT).',
+        taskDescES: 'Manejo de git para el control de versiones.',
         taskDescEN: 'Work with versioning systems (GIT).',
       },
     ],

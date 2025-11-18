@@ -19,57 +19,62 @@ export const experience = [
     jobTitle: 'FULLSTACK DEVELOPER',
     descES: `Trabajar en Cantera Digital me dió la oportunidad de conocer y aprender una gran cantidad de tecnologías y conocimientos nuevos. La variedad de proyectos en la que estuve me permitió conocer diferentes entornos de trabajo, el último y más interesante me permitió trabajar con CI/CD, estuve muy de cerca atendiendo problemas de integración y despliegue consultando los logs del pipeline.
     Durante mi jornada estuve apoyando activamente con React tanto en TypeScript como en JavaScript, además de React Native un par de meses; contribuyendo al desarrollo de componentes reutilizables asegurando una buena experiencia de usuario y un buen rendimiento, manteniendo un código limpio y escalable. También tuve una participación constante en el desarrollo backend con Express y FastAPI utilizando bases de datos como PostgreSQL y MongoDB durante unos meses; generando REST API endpoints y documentando la Api con Swagger para facilitar su uso.`,
-    descEn: `Currently working here, at an excellent software consulting company. This experience has allowed me to keep growing both technically and professionally. I've learned a lot from my teammates, and working closely with them has helped me strengthen my communication and problem-solving skills. The projects I've been involved in have mainly focused on CMS (Content Management System) platforms, where I've contributed to improving performance, enhancing user experience, and delivering scalable solutions tailored to the client needs. Lately I have also been involved in the backend development, creating REST API endpoints and ensuring a well-structured data model, as well as providing documentation using Swagger.`,
+    descEn: `Working at Cantera Digital, gave me the opportunity to explore and learn a wide range of technologies and concepts. The variety of projects I was involved in allowed me to experience different work environments. The last and most interesting one gave me hands-on experience with CI/CD, where I closely handled intregation and deployment issues by reviewing pipeline logs.
+    During my journey, I actively worked with React in both TypeScript and JavaScript, as well as React Native for a couple months. I helped building reusable components that ensured a smooth user experience and strong performance while maintaining a clean and scalable code. I also helped consistenly in backend development with Express and FastAPI, using databases such as PostgreSQL and MongoDB for a few months. My tasks included building REST API endpoints and documenting the API with Swagger to make it easier to use.
+    `,
     tasks: [
       {
         id: 1,
         taskDescES:
           'Desarrollé interfaces modernas, responsivas y de alto valor asegurando una buena UX/UI.',
-        taskDescEN: 'Develop responsive software interfaces.',
+        taskDescEN:
+          'Developed modern-responsive web sites ensuring a proper UI/UX.',
       },
       {
         id: 2,
         taskDescES: `Integré servicios de terceros como Stripe, OpenPay y Api's externas.`,
-        taskDescEN: 'Third-party services integration.',
+        taskDescEN: `Implemented third-party services like Stripe, OpenPay and external APIs.`,
       },
       {
         id: 3,
         taskDescES:
           'Definí estándares de código a lo largo del proyecto y en participé en la revisión de pull requests.',
-        taskDescEN: 'Consume REST API endpoints.',
+        taskDescEN:
+          'Defined code standards across the project and participated in pull request reviews.',
       },
       {
         id: 4,
         taskDescES: 'Diseñé y estructuré tablas/modelos para la base de datos.',
-        taskDescEN: 'Data model design.',
+        taskDescEN: 'Designed and structured the database tables and models.',
       },
       {
         id: 5,
         taskDescES: 'Desarrollé e implementé REST API endpoints.',
-        taskDescEN: 'Consume REST API endpoints.',
+        taskDescEN: 'Developed and implemented REST API endpoints.',
       },
       {
         id: 6,
         taskDescES:
           'Utilicé librerías populares para la administración de datos, formularios y estados como zustand/redux, tanstack query, react-hook-form, etc.',
         taskDescEN:
-          'Usage of libraries for data, form handling and state management such as zustand/redux, tanstack query, context api, etc.',
+          'Worked with common libraries for data, form and state management such as zustand/redux, tanstack query, context api, react-hook-form, etc.',
       },
       {
         id: 7,
         taskDescES: 'Trabajé de Git para el control de versiones.',
-        taskDescEN: 'Work with versioning systems (GIT).',
+        taskDescEN: 'Worked with Git for versioning system.',
       },
       {
         id: 8,
         taskDescES: 'Contribuí en la elaboración de documentación técnica.',
-        taskDescEN: 'Write technical documentation.',
+        taskDescEN: 'Helped writing technical documentation.',
       },
       {
         id: 9,
         taskDescES:
           'Trabajé con la metodología SCRUM y Azure DevOps para la gestión de actividades.',
-        taskDescEN: 'Work with SCRUM methodology.',
+        taskDescEN:
+          'Worked with SCRUM methodology and Azure DevOps for task management.',
       },
     ],
   },

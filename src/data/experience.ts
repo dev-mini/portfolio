@@ -15,7 +15,7 @@ export const experience = [
     },
     employer: 'CANTERA DIGITAL',
     startDate: '2024/02/01',
-    endDate: '2025/11/14',
+    endDate: '2025/11/15',
     jobTitle: 'FULLSTACK DEVELOPER',
     descES: `Trabajar en Cantera Digital me dió la oportunidad de conocer y aprender una gran cantidad de tecnologías y conocimientos nuevos. La variedad de proyectos en la que estuve me permitió conocer diferentes entornos de trabajo, el último y más interesante me permitió trabajar con CI/CD, estuve muy de cerca atendiendo problemas de integración y despliegue consultando los logs del pipeline.
     Durante mi jornada estuve apoyando activamente con React tanto en TypeScript como en JavaScript, además de React Native un par de meses; contribuyendo al desarrollo de componentes reutilizables asegurando una buena experiencia de usuario y un buen rendimiento, manteniendo un código limpio y escalable. También tuve una participación constante en el desarrollo backend con Express y FastAPI utilizando bases de datos como PostgreSQL y MongoDB durante unos meses; generando REST API endpoints y documentando la Api con Swagger para facilitar su uso.`,
@@ -82,8 +82,8 @@ export const experience = [
       lightModeHelp: false,
     },
     employer: 'OPTICA',
-    startDate: '2024/04/01',
-    endDate: '2024/09/16',
+    startDate: '2023/09/01',
+    endDate: '2024/02/01',
     jobTitle: 'FREELANCE FULLSTACK DEVELOPER',
     descES: `Como desarrollador freelance, construí un sistema administrativo hecho a la medida para una óptica. Estuve enfocado mayormente en la parte del backend, donde estuve modelando la base de datos con PostgreSQL, implementando autenticación con JWT, desarrollando REST API endpoints y middlewares haciendo uso de Express y TypeScript en conjunto de librerías populares como Prisma y Zod. Además estuve generando la imagen de docker y realizando las configuraciones necesarias para el correcto funcionamiento en diferentes ambientes.
     También estuve apoyando en el desarrollo frontend mejorando algunos componentes para optimizar las consultas realizadas y mejorar la experiencia de usuario, además de estar involucrado continuamente en la creación del diseño para el sitio web usando herramientas como Figma.
@@ -148,7 +148,7 @@ export const experience = [
     },
     employer: 'PRESTIGE ENGLISH SCHOOL',
     startDate: '2023/06/15',
-    endDate: '2023/10/28',
+    endDate: '2023/09/28',
     jobTitle: 'FREELANCE SOFTWARE DEVELOPER',
     descES: `Como desarrollador de software freelance, instalé y configuré un repositorio digital mediante el software DSpace. Durante este proyecto fue vital la búsqueda y lectura de documentación para llevar a cabo una instalación y configuración limpia y fluida, así como para solventar los errores que se presentaban debido a diversos factores.
     Antes de realizar el pase a producción fue necesario hacer uso de máquinas virtuales en VMWare para simular el entorno y replicar el ambiente, asegurando que fuera lo más cercano posible y el despliegue fuera sencillo y seguro. También fue importante investigar y explorar alternativas para el DNS y el Hosting, asi como la configuración de estos en conjunto con el certificado SSL y el firewall. 
@@ -259,10 +259,10 @@ export const experience = [
       lightModeHelp: true,
     },
     employer: 'GRUPO LIAS',
-    startDate: '2022/01/03',
-    endDate: '2022/06/03',
+    startDate: '2022/06/03',
+    endDate: '2022/12/03',
     jobTitle: 'FULLSTACK DEVELOPER',
-    descES: `Participé en el desarrollo de un CMS (Content Management System) a la medida para una empresa de servicios técnico residenciales. Estuve involucrado durante todo el ciclo del proyecto, apoyando en la obtención y análisis de requerimientos, en la creación del diseño de interfaces para el sitio web y en el desarrollo utilizando DJango y JavaScript, además de participar en el modelado y estructuración de la base de datos utilizando SQLite.
+    descES: `Desarrollé un CMS (Content Management System) a la medida para una empresa de servicios técnico residenciales. Estuve involucrado durante todo el ciclo del software, apoyando en la obtención y análisis de requerimientos, en la creación del diseño de interfaces para el sitio web y en el desarrollo utilizando React y DJango, además de diseñar la estructura de la base de datos utilizando SQLite.
     `,
     descEn: `This project was my first real-world experience. I participated in the development of a CMS (Content Management System) for a technical residential services 
       company. The software was built from scratch, and we held several meetings to define and analyze the software requirements, review progress, and deliver the final product. We used Django for the backend and HTML and JavaScript for the frontend. Through this project, I gained valuable hands-on experience with both backend and frontend development, which strengthened my problem-solving skills and ability to work collaboratively with a team. The successful completion of this project helped streamline the client's operations and improved their service delivery.`,
@@ -270,36 +270,37 @@ export const experience = [
       {
         id: 1,
         taskDescES:
-          'Definición de especificaciones de software de acuerdo a los requerimientos del cliente.',
+          'Diseñé la estructura de la base de datos utilizando SQLite de acuerdo a las especificaciones de software.',
+        taskDescEN: 'Designed SQL database based on software specifications.',
+      },
+      {
+        id: 2,
+        taskDescES:
+          'Definí especificaciones de software de acuerdo a los requerimientos del cliente.',
         taskDescEN:
           'Define software specifications according to the client requirements.',
       },
       {
-        id: 2,
-        taskDescES: 'Diseño de interfaces del sitio web.',
-        taskDescEN: 'Participated in designing software interfaces.',
-      },
-      {
         id: 3,
-        taskDescES: 'Desarrollo frontend y backend con Django.',
+        taskDescES:
+          'Desarrollé el frontend y backend utilizando React y Django.',
         taskDescEN:
           'Participate in the development of backend and frontend with Django.',
       },
       {
         id: 4,
-        taskDescES:
-          'Diseño de la base de datos utilizando SQLite de acuerdo a las especificaciones de software.',
-        taskDescEN: 'Designed SQL database based on software specifications.',
+        taskDescES: 'Trabajé con Git para el control de versiones.',
+        taskDescEN: 'Work with versioning systems (GIT).',
       },
       {
         id: 5,
-        taskDescES: 'Uso de la metodología SCRUM.',
+        taskDescES: 'Trabajé con la metodología SCRUM.',
         taskDescEN: 'Work with SCRUM methodology.',
       },
       {
         id: 6,
-        taskDescES: 'Manejo de git para el control de versiones.',
-        taskDescEN: 'Work with versioning systems (GIT).',
+        taskDescES: 'Participé en el diseño de interfaces del sitio web.',
+        taskDescEN: 'Participated in designing software interfaces.',
       },
     ],
   },

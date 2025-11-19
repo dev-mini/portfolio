@@ -242,7 +242,7 @@ export const experience = [
         taskDescEN: 'Implemented third-party REST API endpoints.',
       },
       {
-        id: 6,
+        id: 5,
         taskDescES: 'Desarrollé el sitio web utilizando React y Laravel.',
         taskDescEN: 'Developed the website using React and Laravel.',
       },

@@ -7,11 +7,9 @@ import mysql from '@/assets/icons/mysql.svg';
 import sass from '@/assets/icons/sass.svg';
 import laravel from '@/assets/icons/laravel.svg';
 import django from '@/assets/icons/django.svg';
-import github from '@/assets/icons/github.svg';
 import tailwind from '@/assets/icons/tailwindcss.svg';
 import linux from '@/assets/icons/linux.svg';
 import docker from '@/assets/icons/docker.svg';
-import kubernetes from '@/assets/icons/kubernetes.svg';
 import express from '@/assets/icons/express.svg';
 import postgresql from '@/assets/icons/postgresql.svg';
 import fastapi from '@/assets/icons/fastapi.svg';
@@ -20,22 +18,20 @@ import mongodb from '@/assets/icons/mongodb.svg';
 
 export const technologies = [
   { id: 1, icon: react, name: 'React' },
-  { id: 2, icon: springboot, name: 'SpringBoot' },
-  { id: 3, icon: javascript, name: 'JavaScript' },
-  { id: 4, icon: typescript, name: 'TypeScript' },
-  { id: 5, icon: mysql, name: 'MySQL' },
+  { id: 2, icon: javascript, name: 'JavaScript' },
+  { id: 3, icon: typescript, name: 'TypeScript' },
+  { id: 4, icon: tailwind, name: 'Tailwind' },
+  { id: 5, icon: express, name: 'Express' },
   { id: 6, icon: git, name: 'Git' },
-  { id: 7, icon: github, name: 'GitHub' },
-  { id: 8, icon: sass, name: 'SASS' },
-  { id: 9, icon: laravel, name: 'Laravel' },
-  { id: 10, icon: django, name: 'Django' },
-  { id: 11, icon: tailwind, name: 'Tailwind' },
-  { id: 12, icon: linux, name: 'Linux' },
-  { id: 13, icon: docker, name: 'Docker' },
-  { id: 14, icon: kubernetes, name: 'Kubernetes' },
-  { id: 15, icon: express, name: 'Express' },
-  { id: 16, icon: postgresql, name: 'PostgreSQL' },
-  { id: 17, icon: fastapi, name: 'FastAPI' },
-  { id: 18, icon: python, name: 'Python' },
-  { id: 19, icon: mongodb, name: 'MongoDB' },
+  { id: 7, icon: docker, name: 'Docker' },
+  { id: 8, icon: postgresql, name: 'PostgreSQL' },
+  { id: 9, icon: python, name: 'Python' },
+  { id: 10, icon: fastapi, name: 'FastAPI' },
+  { id: 11, icon: mysql, name: 'MySQL' },
+  { id: 12, icon: sass, name: 'SASS' },
+  { id: 13, icon: linux, name: 'Linux' },
+  { id: 14, icon: laravel, name: 'Laravel' },
+  { id: 15, icon: django, name: 'Django' },
+  { id: 16, icon: springboot, name: 'SpringBoot' },
+  { id: 17, icon: mongodb, name: 'MongoDB' },
 ];

@@ -20,6 +20,6 @@ export const contactInfo = [
     id: 3,
     icon: github,
     name: 'GitHub',
-    link: 'https://github.com/DanielMMITM',
+    link: 'https://github.com/dev-mini',
   },
 ];

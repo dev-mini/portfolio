@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body,
+html {
+  @apply bg-primaryLight dark:bg-primary;
+}
 .custom-transition::after {
   content: '';
   position: absolute;

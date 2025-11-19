@@ -45,7 +45,7 @@ export const experience = [
       {
         id: 4,
         taskDescES: 'Diseñé y estructuré tablas/modelos para la base de datos.',
-        taskDescEN: 'Designed and structured the database tables and models.',
+        taskDescEN: 'Designed and structured the database tables.',
       },
       {
         id: 5,
@@ -61,8 +61,8 @@ export const experience = [
       },
       {
         id: 7,
-        taskDescES: 'Trabajé de Git para el control de versiones.',
-        taskDescEN: 'Worked with Git for versioning system.',
+        taskDescES: 'Trabajé Git para el control de versiones.',
+        taskDescEN: 'Worked with Git for versioning control.',
       },
       {
         id: 8,
@@ -93,53 +93,54 @@ export const experience = [
     descES: `Como desarrollador freelance, construí un sistema administrativo hecho a la medida para una óptica. Estuve enfocado mayormente en la parte del backend, donde estuve modelando la base de datos con PostgreSQL, implementando autenticación con JWT, desarrollando REST API endpoints y middlewares haciendo uso de Express y TypeScript en conjunto de librerías populares como Prisma y Zod. Además estuve generando la imagen de docker y realizando las configuraciones necesarias para el correcto funcionamiento en diferentes ambientes.
     También estuve apoyando en el desarrollo frontend mejorando algunos componentes para optimizar las consultas realizadas y mejorar la experiencia de usuario, además de estar involucrado continuamente en la creación del diseño para el sitio web usando herramientas como Figma.
     `,
-    descEn: `Together with two teammates, we developed a web-based administrative system for an optical clinic, covering the entire software development process—from gathering requirements to deploying the system on a LAN network. The user interfaces were designed in Figma according to the client's requirements. 
-    On the backend, we implemented basic authentication and data storage in a relational database using PostgreSQL, combined with Express and TypeScript.
-    On the frontend, we built the user interfaces with React and JavaScript, leveraging the Material UI library for a consistent component management.
-    In addition, the application was dockerized to streamline the production release, ensuring an environment as close as possible to development.`,
+    descEn: `As a freelance developer, I built an administrative system from scratch based to the client's requirements. I was mainly focused on backend development, where I designed the database structure using PostgreSQL, implemented JWT-based authentication, and developed REST API endpoints and middlewares using Express and TypeScript, along with popular libraries such as Prisma and Zod. I also created the Docker image and configured it to ensure proper operation across different environments.
+    I also developed and improved several frontend components to enhance the user experience and optimize the application performance by addressing data-fetching issues. Additionally, I was involved in designing the website layout using tools like Figma.  
+    `,
     tasks: [
       {
         id: 1,
         taskDescES:
-          'Optimicé las consultas realizadas y mejoré los componentes asegurando un buen rendimiento y una mejor experiencia de usuario utilizando React.',
+          'Optimicé las consultas realizadas y componentes asegurando un buen rendimiento y una mejor experiencia de usuario utilizando React.',
         taskDescEN:
-          'Paticipate in the frontend development by enhancing the components to improve the performance and UI/UX using React.',
+          'Improved the user experience and application performance using React.',
       },
       {
         id: 2,
         taskDescES:
           'Diseñé y estructuré tablas/modelos para la base de datos utilizando PostgreSQL.',
-        taskDescEN: 'Data model design using PostgreSQL.',
+        taskDescEN:
+          'Designed the database structure from scratch using PostgreSQL.',
       },
       {
         id: 3,
         taskDescES:
           'Generé la imagen del proyecto y configuré Docker para asegurar un buen funcionamiento en diferentes ambientes.',
         taskDescEN:
-          'Docker usage and configuration to ensure work properly in different environments',
+          'Used and configured Docker to ensure proper operation across different environments.',
       },
       {
         id: 4,
         taskDescES:
           'Desarrollé REST API endpoints usando Express y TypeScript.',
-        taskDescEN: 'Develop REST API endpoints using Express with TypeScript.',
+        taskDescEN:
+          'Developed REST API endpoints using Express and TypeScript.',
       },
       {
         id: 5,
         taskDescES: 'Utilicé librerías populares como Zod, Prisma, JWT, etc.',
         taskDescEN:
-          'Usage of common libraries such as Zod, Prisma, Bcrypt, JWT, etc.',
+          'Worked with common libraries such as Zod, Prisma, Bcrypt, JWT, etc.',
       },
       {
         id: 6,
         taskDescES: 'Trabajé con Git para el control de versiones.',
-        taskDescEN: 'Work with versioning systems (GIT).',
+        taskDescEN: 'Worked with Git for versioning control.',
       },
       {
         id: 7,
         taskDescES:
           'Participé en el proceso de diseño de interfaces para el sistema utilizando Figma.',
-        taskDescEN: 'Participate in the website UI design using Figma.',
+        taskDescEN: `Participated in the website's UI design using Figma.`,
       },
     ],
   },
@@ -158,40 +159,42 @@ export const experience = [
     descES: `Como desarrollador de software freelance, instalé y configuré un repositorio digital mediante el software DSpace. Durante este proyecto fue vital la búsqueda y lectura de documentación para llevar a cabo una instalación y configuración limpia y fluida, así como para solventar los errores que se presentaban debido a diversos factores.
     Antes de realizar el pase a producción fue necesario hacer uso de máquinas virtuales en VMWare para simular el entorno y replicar el ambiente, asegurando que fuera lo más cercano posible y el despliegue fuera sencillo y seguro. También fue importante investigar y explorar alternativas para el DNS y el Hosting, asi como la configuración de estos en conjunto con el certificado SSL y el firewall. 
     `,
-    descEn: `This project was a freelance job, a big challenge, but also a great learning experience. I had to rely heavily on my self-learning skills, as I was
-      unfamiliar with the software required by the client. This pushed me to dive deep into its documentation, even though it was outdated and certain steps varied between versions. To overcome this, I had to explore external resources such as community forums and technical articles.
-      Throughout the project, I also strengthened my teamwork and time management skills by coordinating with others and ensuring we stayed on schedule. We used VMware to manage the environment carefully before moving everything into production. In the end, I was able to deliver a functional solution, overcoming technical and informational limitations, which helped the client move forward with their operations more efficiently.`,
+    descEn: `As a freelance software developer, I installed and configured a digital repository using the DSpace software. Throughout this project, extensive research and documentation review were essential to achieve a clean and smooth installation and configuration, as well as to resolve the issues that arose due to multiple factors.
+    Before moving forward to production, it was necessary to use virtual machines with VMWare to simulate and replicate the target environment, ensuring it was as accurate as possible so that the deployment would be simple and secure. It was also important to research and explore alternatives for DNS and hosting, as well as configure them alongside the SSL certificate and firewall.
+    `,
     tasks: [
       {
         id: 1,
         taskDescES:
-          'Apliqué las configuraciones necesarias para el DNS, SSL y firewall.',
-        taskDescEN: 'DNS, SSL and firewall configurations.',
+          'Desarrollé scripts en python para optimizar la descarga, subida y categorización de libros, artículos y otros recursos.',
+        taskDescEN:
+          'Developed Python scripts to streamline the downloading, uploading and categorization of books and other resources.',
       },
       {
         id: 2,
         taskDescES:
-          'Desarrollé scripts en python para optimizar la descarga, subida y categorización de libros, artículos y otros recursos.',
+          'Despliegue eficiente y seguro de la aplicación en el entorno productivo.',
         taskDescEN:
-          'Script development to download, upload and categorize books.',
+          'Efficient and secure application deployment in a production environment.',
       },
       {
         id: 3,
         taskDescES:
-          'Adapté el contenido y estilo del proyecto para alinearlo con las necesidades de la institución.',
-        taskDescEN:
-          'Customization of styles and content based on the school branding.',
+          'Apliqué las configuraciones necesarias para el DNS, SSL y firewall.',
+        taskDescEN: 'Applied DNS, SSL and firewall configurations.',
       },
       {
         id: 4,
         taskDescES:
           'Instalé y configuré el backend y frontend de DSpace para su funcionamiento.',
-        taskDescEN: `Install and configure DSpace backend and frontend for its proper operation.`,
+        taskDescEN: `Installed and configured DSpace backend and frontend to ensure proper operation.`,
       },
       {
         id: 5,
-        taskDescES: 'Despliegue de la aplicación.',
-        taskDescEN: 'App deployment.',
+        taskDescES:
+          'Adapté el contenido y estilo del proyecto para alinearlo con las necesidades de la institución.',
+        taskDescEN:
+          'Tailored style and content following the school branding guidelines.',
       },
     ],
   },
@@ -210,48 +213,48 @@ export const experience = [
     descES: `Estuve apoyando activamente en la actualización y migración del sistema para mejorar las operaciones del área financiera utilizando Laravel y React para el desarrollo del sitio web. Se hizo uso de la arquitectura Modelo Vista Controlador (MVC), dónde contribuí a la mejora e implementación de la autenticación así como en el desarrollo de interfaces.
     Tuve una participación continua en la migración de la base de datos de Access a MySQL, coordinando en conjunto con el equipo la transferencia de datos y la estructuración de los mismos. Además estuve involucrado en la definición de estándares de código y en la revisión de pull requests, garantizando la calidad y el cumplimiento de los requisitos del proyecto.
     `,
-    descEn: `I participated in the system upgrade and migration to help improve the financial area's operations. I enhanced my knowledge of Laravel and its best practices,
-      collaborating with the team by using Bootstrap and implementing AdminLTE with proper customization to meet the specific needs of the project. Through this process, I contributed to streamlining operations and enhancing the user interface, which ultimately improved the overall efficiency and user satisfaction in the financial department.`,
+    descEn: `I actively supported the system's upgrade and migration to improve the financial department's operations, using Laravel and React for web development. Following the Model-View-Controller (MVC) architecture, I enhanced and implemented authentication features, as well as developed user interfaces.
+    I was consistently involved in migrating the database from Access to MySQL, coordinating data transfer and restructuring alongside the team. I also defined code standards and participated reviewing pull requests, ensuring code quality and alignment with the project requirements. 
+    `,
     tasks: [
       {
         id: 1,
         taskDescES:
           'Coordiné y ejecuté la migración de la base de datos de Access a MySQL.',
-        taskDescEN: 'Migrate the database from Access to MySQL.',
+        taskDescEN:
+          'Coordinated and executed the database migration from Access to MySQL.',
       },
       {
         id: 2,
         taskDescES: 'Utilicé la arquitectura Modelo Vista Controlador (MVC).',
-        taskDescEN:
-          'Define code standards across the project and participate in pull request reviews.',
+        taskDescEN: 'Worked with the Model-View-Controller architecture.',
       },
       {
         id: 3,
         taskDescES:
           'Definí estándares de código dentro del proyecto y participé en revisión de pull requests.',
         taskDescEN:
-          'Define code standards across the project and participate in pull request reviews.',
+          'Defined code standards across the project and participated in pull request reviews.',
       },
       {
         id: 4,
-        taskDescES: 'Desarrollé el sitio web utilizando React y Laravel.',
-        taskDescEN:
-          'Participate in the development of the website using Laravel.',
+        taskDescES: 'Integré REST API endpoints de servicios externos.',
+        taskDescEN: 'Implemented third-party REST API endpoints.',
       },
       {
-        id: 5,
-        taskDescES: 'Integré REST API endpoints de servicios externos.',
-        taskDescEN: 'Consume third-party REST API endpoints.',
+        id: 6,
+        taskDescES: 'Desarrollé el sitio web utilizando React y Laravel.',
+        taskDescEN: 'Developed the website using React and Laravel.',
       },
       {
         id: 6,
         taskDescES: 'Trabajé con Git para el control de versiones.',
-        taskDescEN: 'Work with versioning systems (GIT).',
+        taskDescEN: 'Worked with Git for versioning control.',
       },
       {
         id: 7,
         taskDescES: 'Trabajé con Jira para el seguimiento de tareas.',
-        taskDescEN: 'Work with Jira.',
+        taskDescEN: 'Worked with Jira for task management.',
       },
     ],
   },
@@ -267,45 +270,52 @@ export const experience = [
     startDate: '2022/06/03',
     endDate: '2022/12/03',
     jobTitle: 'FULLSTACK DEVELOPER',
-    descES: `Desarrollé un CMS (Content Management System) a la medida para una empresa de servicios técnico residenciales. Estuve involucrado durante todo el ciclo del software, apoyando en la obtención y análisis de requerimientos, en la creación del diseño de interfaces para el sitio web y en el desarrollo utilizando React y DJango, además de diseñar la estructura de la base de datos utilizando SQLite.
+    descES: `Desarrollé un CMS (Content Management System) a la medida para una empresa de servicios técnico residenciales. Estuve involucrado durante todo el ciclo de vida del software, apoyando en la obtención y análisis de requerimientos, en la creación del diseño de interfaces para el sitio web usando Figma y desarrollé la aplicación web utilizando React y Django, además de diseñar la estructura de la base de datos utilizando SQLite. Configuré el DNS y realicé el despliegue de la aplicación en colaboración con el equipo, asegurando que cumpliera con los requisitos del cliente.
     `,
-    descEn: `This project was my first real-world experience. I participated in the development of a CMS (Content Management System) for a technical residential services 
-      company. The software was built from scratch, and we held several meetings to define and analyze the software requirements, review progress, and deliver the final product. We used Django for the backend and HTML and JavaScript for the frontend. Through this project, I gained valuable hands-on experience with both backend and frontend development, which strengthened my problem-solving skills and ability to work collaboratively with a team. The successful completion of this project helped streamline the client's operations and improved their service delivery.`,
+    descEn: `Developed a Content Management System based on client requirements for a residential technical services company. Throughout the software lifecycle, I supported requirements gathering and analysis, designed user interfaces for the website using Figma, and developed the web application using React and Django, while also designing the database structure from scratch with SQLite. I Configured the DNS and deployed the web application in collaboration with the team, ensuring it met client requirements.
+    `,
     tasks: [
       {
         id: 1,
         taskDescES:
           'Diseñé la estructura de la base de datos utilizando SQLite de acuerdo a las especificaciones de software.',
-        taskDescEN: 'Designed SQL database based on software specifications.',
+        taskDescEN:
+          'Designed the database structure from scratch using SQLite according to the software specifications.',
       },
       {
         id: 2,
         taskDescES:
           'Definí especificaciones de software de acuerdo a los requerimientos del cliente.',
         taskDescEN:
-          'Define software specifications according to the client requirements.',
+          'Defined software specifications according to the client requirements.',
       },
       {
         id: 3,
         taskDescES:
           'Desarrollé el frontend y backend utilizando React y Django.',
-        taskDescEN:
-          'Participate in the development of backend and frontend with Django.',
+        taskDescEN: 'Developed the web application using React and Django.',
       },
       {
         id: 4,
-        taskDescES: 'Trabajé con Git para el control de versiones.',
-        taskDescEN: 'Work with versioning systems (GIT).',
+        taskDescES:
+          'Realicé configuraciones de DNS y desplegué la aplicación de acuerdo a los requerimientos del cliente.',
+        taskDescEN:
+          'Applied DNS configurations and deployed the web applications according to the client requirements.',
       },
       {
         id: 5,
-        taskDescES: 'Trabajé con la metodología SCRUM.',
-        taskDescEN: 'Work with SCRUM methodology.',
+        taskDescES: 'Trabajé con Git para el control de versiones.',
+        taskDescEN: 'Worked with Git for versioning control.',
       },
       {
         id: 6,
+        taskDescES: 'Trabajé con la metodología SCRUM.',
+        taskDescEN: 'Worked with SCRUM methodology.',
+      },
+      {
+        id: 7,
         taskDescES: 'Participé en el diseño de interfaces del sitio web.',
-        taskDescEN: 'Participated in designing software interfaces.',
+        taskDescEN: 'Collaborated in designing user interfaces using Figma.',
       },
     ],
   },

@@ -14,7 +14,7 @@ export const Header = () => {
             </button>
           </li>
           <li>
-            <AnimatedThemeToggler />
+            <AnimatedThemeToggler className="flex" />
           </li>
         </ul>
       </nav>

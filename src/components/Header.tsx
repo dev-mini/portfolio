@@ -1,9 +1,8 @@
 import { useAppContext } from '@/context/AppContext';
-import darkModeIcon from '@/assets/icons/darkMode.svg';
-import lightModeIcon from '@/assets/icons/lightMode.svg';
+import { AnimatedThemeToggler } from './AnimatedThemeToggler';
 
 export const Header = () => {
-  const { english, toggleLanguage, darkMode, toggleDarkMode } = useAppContext();
+  const { english, toggleLanguage } = useAppContext();
 
   return (
     <header>
@@ -15,13 +14,7 @@ export const Header = () => {
             </button>
           </li>
           <li>
-            <button className="flex" type="button" onClick={toggleDarkMode}>
-              <img
-                src={darkMode ? lightModeIcon : darkModeIcon}
-                alt={`${darkMode ? 'Light mode' : 'Dark mode'} icon`}
-                className={`${darkMode && 'invert'} icon w-5`}
-              />
-            </button>
+            <AnimatedThemeToggler />
           </li>
         </ul>
       </nav>

@@ -15,7 +15,7 @@ type AppContextConfigType = {
   english: boolean;
   toggleLanguage: () => void;
   darkMode: boolean;
-  toggleDarkMode: () => void;
+  setDarkMode: Dispatch<SetStateAction<boolean>>;
   selectedTab: number;
   setSelectedTab: Dispatch<SetStateAction<number>>;
 };
@@ -24,7 +24,7 @@ const initialAppContextConfigType: AppContextConfigType = {
   english: true,
   toggleLanguage: () => {},
   darkMode: true,
-  toggleDarkMode: () => {},
+  setDarkMode: () => {},
   selectedTab: 1,
   setSelectedTab: () => {},
 };
@@ -38,18 +38,13 @@ export const AppContextProvider = ({ children }: AppContextProps) => {
     setEnglish(!english);
   };
 
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-    document.documentElement.classList.toggle('dark');
-  };
-
   return (
     <AppContext.Provider
       value={{
         english,
         toggleLanguage,
         darkMode,
-        toggleDarkMode,
+        setDarkMode,
         selectedTab,
         setSelectedTab,
       }}

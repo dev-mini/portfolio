@@ -1,5 +1,6 @@
 {
   "files": [],
+  "lib": ["dom", "dom.iterable"],
   "references": [
     {
       "path": "./tsconfig.app.json"

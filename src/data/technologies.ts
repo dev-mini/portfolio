@@ -15,23 +15,25 @@ import postgresql from '@/assets/icons/postgresql.svg';
 import fastapi from '@/assets/icons/fastapi.svg';
 import python from '@/assets/icons/python.svg';
 import mongodb from '@/assets/icons/mongodb.svg';
+import kotlin from '@/assets/icons/kotlin.svg';
 
 export const technologies = [
   { id: 1, icon: react, name: 'React' },
   { id: 2, icon: javascript, name: 'JavaScript' },
   { id: 3, icon: typescript, name: 'TypeScript' },
   { id: 4, icon: tailwind, name: 'Tailwind' },
-  { id: 5, icon: express, name: 'Express' },
-  { id: 6, icon: git, name: 'Git' },
-  { id: 7, icon: docker, name: 'Docker' },
-  { id: 8, icon: postgresql, name: 'PostgreSQL' },
-  { id: 9, icon: python, name: 'Python' },
-  { id: 10, icon: fastapi, name: 'FastAPI' },
-  { id: 11, icon: mysql, name: 'MySQL' },
-  { id: 12, icon: sass, name: 'SASS' },
-  { id: 13, icon: linux, name: 'Linux' },
-  { id: 14, icon: laravel, name: 'Laravel' },
-  { id: 15, icon: django, name: 'Django' },
-  { id: 16, icon: springboot, name: 'SpringBoot' },
-  { id: 17, icon: mongodb, name: 'MongoDB' },
+  { id: 5, icon: kotlin, name: 'Kotlin' },
+  { id: 6, icon: express, name: 'Express' },
+  { id: 7, icon: git, name: 'Git' },
+  { id: 8, icon: docker, name: 'Docker' },
+  { id: 9, icon: postgresql, name: 'PostgreSQL' },
+  { id: 10, icon: python, name: 'Python' },
+  { id: 11, icon: fastapi, name: 'FastAPI' },
+  { id: 12, icon: mysql, name: 'MySQL' },
+  { id: 13, icon: sass, name: 'SASS' },
+  { id: 14, icon: linux, name: 'Linux' },
+  { id: 15, icon: laravel, name: 'Laravel' },
+  { id: 16, icon: django, name: 'Django' },
+  { id: 17, icon: springboot, name: 'SpringBoot' },
+  { id: 18, icon: mongodb, name: 'MongoDB' },
 ];
